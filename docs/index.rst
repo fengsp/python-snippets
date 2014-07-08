@@ -1,22 +1,19 @@
-.. Python-Snippets documentation master file, created by
-   sphinx-quickstart on Tue Jul  8 15:47:43 2014.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Python-Snippets
+===============
 
-Welcome to Python-Snippets's documentation!
-===========================================
+Python-Snippets is a basket of Python snippets.
 
-Contents:
+
+Snippets
+--------
 
 .. toctree::
    :maxdepth: 2
 
+   email
 
 
-Indices and tables
-==================
+Contribute
+----------
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+Pull requests are welcomed, thank you for your suggestions!
