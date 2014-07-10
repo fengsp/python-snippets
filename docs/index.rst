@@ -4,12 +4,15 @@ Python-Snippets
 Python-Snippets is a basket of Python snippets.
 
 
-Snippets
---------
-
 .. toctree::
    :maxdepth: 2
 
+   decorator
+   iterator
+   descriptor
+   with
+   method
+   metaclass
    file
    email
 
