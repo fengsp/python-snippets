@@ -1,7 +1,8 @@
 Python-Snippets
 ===============
 
-Python-Snippets is a basket of Python snippets.
+Python-Snippets is a basket of Python snippets.  Some of them are from Stack
+Overflow, others are written by me or taken from various web resources.
 
 
 .. toctree::
