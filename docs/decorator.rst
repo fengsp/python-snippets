@@ -4,7 +4,7 @@ Decorator
 Snippets about decorators.
 
 
-Decorators 101
+decorators 101
 --------------
 
 Let's begin with syntactic sugar::
@@ -30,7 +30,7 @@ Let's begin with syntactic sugar::
     add = EXPR(ARG)(add)
 
 
-Good Decorator
+good decorator
 --------------
 
 We want to run a function for certain times::
@@ -52,7 +52,7 @@ We want to run a function for certain times::
         print word
 
 
-Method Decorator
+method decorator
 ----------------
 
 We need one decorator that makes function to method decorators::

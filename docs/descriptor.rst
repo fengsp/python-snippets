@@ -4,7 +4,7 @@ Descriptor
 Snippets about descriptors.
 
 
-Descriptors 101
+descriptors 101
 ---------------
 
 What is descriptor:
@@ -33,7 +33,7 @@ Demo::
     <bound method Demo.hello of <__main__.Demo object at 0x102b285d0>>
 
 
-Data And Non-data Descriptors
+data and non-data descriptors
 -----------------------------
 
 If an object defines both ``__get__`` and ``__set__``, it is considered a data
@@ -96,7 +96,7 @@ Now we add ``__set__``::
     'demo3'
 
 
-Better Way To Write Property
+better way to write property
 ----------------------------
 
 Let's just see the code::
@@ -114,7 +114,7 @@ Let's just see the code::
         del _get_thing, _set_thing
 
 
-Cached Property
+cached property
 ---------------
 
 Just grab it from django source::

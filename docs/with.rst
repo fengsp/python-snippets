@@ -4,7 +4,7 @@ Context Manager
 Snippets about with blocks.
 
 
-Open And Close Files
+open and close files
 --------------------
 
 ::
@@ -13,7 +13,7 @@ Open And Close Files
         data = f.read()
 
 
-Threading Locks
+threading locks
 ---------------
 
 ::
@@ -24,7 +24,7 @@ Threading Locks
         print 'do something'
 
 
-Ignore Exceptions
+ignore exceptions
 -----------------
 
 :: 
@@ -42,7 +42,7 @@ Ignore Exceptions
         int('string')
 
 
-Assert Raises
+assert raises
 -------------
 
 This one is taken from Flask source::

@@ -4,7 +4,7 @@ Email
 Snippets about email.
 
 
-`Sending-email-with-python`_
+`sending email with python`_
 ----------------------------
 
 I recommend that you use the standard packages email and smtplib together::
@@ -65,7 +65,7 @@ For multiple destinations::
     s.quit()
 
 
-`Sending mail via sendmail from python`_
+`sending mail via sendmail from python`_
 ----------------------------------------
 
 If I want to send mail not via SMTP, but rather via sendmail::
@@ -81,5 +81,5 @@ If I want to send mail not via SMTP, but rather via sendmail::
     p.communicate(msg.as_string())
 
 
-.. _Sending-email-with-python: http://stackoverflow.com/questions/6270782/sending-email-with-python
-.. _Sending mail via sendmail from python: http://stackoverflow.com/questions/73781/sending-mail-via-sendmail-from-python
+.. _sending email with python: http://stackoverflow.com/questions/6270782/sending-email-with-python
+.. _sending mail via sendmail from python: http://stackoverflow.com/questions/73781/sending-mail-via-sendmail-from-python

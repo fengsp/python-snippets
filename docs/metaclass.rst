@@ -4,7 +4,7 @@ Metaclass
 Snippets about metaclasses.
 
 
-Metaclasses 101
+metaclasses 101
 ---------------
 
 In Python, everything is one object.  Take CPython for example, we have
@@ -12,7 +12,10 @@ PyObject, everything else is inherited from it, and each PyObject has one type
 attribute, PyTypeObject, actually PyTypeObject is one PyObject by itself too,
 so PyTypeObject has one type attribute, PyTypeType, PyTypeType has type
 attribute too, which is PyTypeType itself.  So come back to Python, we have
-object, each object has one type, and the type of ``type`` is ``type``. 
+object, each object has one type, and the type of ``type`` is ``type``.
+
+You can also have a look on this stack overflow question
+`What is a metaclass in Python <http://stackoverflow.com/questions/100003/what-is-a-metaclass-in-python>`_.
 
 Ok, in Python, everything is simple, so you can just treat metaclass as the
 class that creates a class.  This is useful for post-processing classes, and

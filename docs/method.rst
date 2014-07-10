@@ -4,7 +4,7 @@ Method
 Snippets about method.
 
 
-Method 101
+method 101
 ----------
 
 Instancemethods take ``self`` argument, classmethods take ``cls`` argument,

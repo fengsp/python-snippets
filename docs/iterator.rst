@@ -4,7 +4,7 @@ Iterator And Generator
 Snippets about iterators and generators.
 
 
-`iterator - The Python yield keyword explained`_
+`iterator - the Python yield keyword explained`_
 ------------------------------------------------
 
 Iterables::
