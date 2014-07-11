@@ -20,6 +20,7 @@ Overflow, others are written by me or taken from various web resources.
    method
    metaclass
    performance
+   module
    io
    file
    email
