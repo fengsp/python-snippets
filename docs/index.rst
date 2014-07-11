@@ -12,6 +12,7 @@ Overflow, others are written by me or taken from various web resources.
    string
    list
    dict
+   class
    decorator
    iterator
    descriptor
