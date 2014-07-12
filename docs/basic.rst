@@ -13,6 +13,16 @@ not None test
         pass
 
 
+dump variable
+-------------
+
+::
+    
+    import pprint
+
+    pprint.pprint(globals())
+
+
 `ternary conditional operator`_
 -------------------------------
 

@@ -61,9 +61,49 @@ time the inode data changed::
     shutil.rmtree('/folder_name')
 
 
+recursively walk a directory
+----------------------------
+
+::
+    
+    import os
+    root = 'your root path here'
+
+    # dirs are the directory list under dirpath
+    # files are the file list under dirpath
+    for dirpath, dirs, files in os.walk(root):
+        for filename in files:
+            fullpath = os.path.join(dirpath, filename)
+            print fullpath
+
+
+get file size
+-------------
+
+::
+    
+    >>> import os
+    >>> statinfo = os.stat('index.rst')
+    >>> statinfo.st_size
+    487
+
+
+`reading binary file`_
+----------------------
+
+::
+    
+    with open("myfile", "rb") as f:
+        byte = f.read(1)
+        while byte:
+            # Do stuff with byte.
+            byte = f.read(1)
+
+
 .. _check if file exists: http://stackoverflow.com/questions/82831/how-do-i-check-if-a-file-exists-using-python
 .. _unicode (utf8) reading and writing to files: http://stackoverflow.com/questions/491921/unicode-utf8-reading-and-writing-to-files-in-python
 .. _extracting extension from filename: http://stackoverflow.com/questions/541390/extracting-extension-from-filename-in-python
 .. _remove/delete a folder that is not empty: http://stackoverflow.com/questions/303200/how-do-i-remove-delete-a-folder-that-is-not-empty-with-python
 .. _get file creation & modification date/times: http://stackoverflow.com/questions/237079/how-to-get-file-creation-modification-date-times-in-python
 .. _find current directory and file's directory: http://stackoverflow.com/questions/5137497/find-current-directory-and-files-directory
+.. _reading binary file: http://stackoverflow.com/questions/1035340/reading-binary-file-in-python

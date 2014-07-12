@@ -13,6 +13,24 @@ Snippets on list manipulation.
         print "List is empty"
 
 
+empty a list
+------------
+
+::
+    del l[:]    
+
+
+shuffle a list
+--------------
+
+::
+    
+    from random import shuffle
+    # works in place
+    l = range(10)
+    shuffle(l)
+
+
 `append vs extend`_
 -------------------
 
@@ -67,6 +85,14 @@ Here's a generator that yields the chunks you want::
 
     foo = ['a', 'b', 'c', 'd', 'e']
     random.choice(foo)
+
+
+list comprehension
+------------------
+
+::
+    
+    new_list = [i * 2 for i in [1, 2, 3]]
 
 
 .. _check if a list is empty: http://stackoverflow.com/questions/53513/best-way-to-check-if-a-list-is-empty

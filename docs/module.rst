@@ -16,3 +16,21 @@ get all module files
                 if filename[-4:] in ('.pyc', '.pyo'):
                     filename = filename[:-1]
                 yield filename
+
+
+dynamic module import
+---------------------
+
+::
+    
+    def import_string(import_name):
+        """Import a module based on a string.
+
+        :param import_name: the dotted name for the object to import.
+        :return: imported object
+        """
+        if '.' in import_name:
+            module, obj = import_name.rsplit('.', 1)
+        else:
+            return __import__(import_name)
+        return getattr(__import__(module, None, None, [obj]), obj)

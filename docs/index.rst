@@ -22,6 +22,7 @@ Overflow, others are written by me or taken from various web resources.
    performance
    module
    io
+   http
    file
    email
    datetime

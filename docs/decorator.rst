@@ -33,7 +33,9 @@ Let's begin with syntactic sugar::
 good decorator
 --------------
 
-We want to run a function for certain times::
+We want to run a function for certain times, if you do not know what does
+``functools.wraps`` do, check out `What does functools.wraps do 
+<http://stackoverflow.com/questions/308999/what-does-functools-wraps-do>`_::
     
     from functools import wraps
     
