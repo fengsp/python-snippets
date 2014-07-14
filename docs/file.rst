@@ -47,6 +47,7 @@ time the inode data changed::
 ----------------------------------------------
 
 ::
+
     os.getcwd()
     os.path.dirname(os.path.realpath(__file__))
 
