@@ -11,8 +11,8 @@ Snippets on dict manipulation.
     
     >>> x = {'a':1, 'b': 2}
     >>> y = {'b':10, 'c': 11}
-    >>> z = dict(x.items() + y.items())
-    >>> z
+    >>> z = x.copy()
+    >>> z.update(y)
     {'a': 1, 'c': 11, 'b': 10}
 
 
