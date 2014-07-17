@@ -44,4 +44,28 @@ a generator::
     1
     4
 
+
+`how do I determine if an object is iterable`_
+----------------------------------------------
+
+Duck typing::
+    
+    try:
+        iterator = iter(theElement)
+    except TypeError:
+        # not iterable
+    else:
+        # iterable
+
+Type checking, need at least Python 2.6 and work only for new-style classes::
+    
+    import collections
+
+    if isinstance(theElement, collections.Iterable):
+        # iterable
+    else:
+        # not iterable
+
+
 .. _iterator - The Python yield keyword explained: http://stackoverflow.com/questions/231767/the-python-yield-keyword-explained
+.. _how do I determine if an object is iterable: http://stackoverflow.com/questions/1952464/in-python-how-do-i-determine-if-an-object-is-iterable
