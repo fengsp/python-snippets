@@ -13,8 +13,8 @@ Snippets about subprocesses.
     call(["ls", "-l"])
 
 
-subprocess input and output
----------------------------
+subprocess input, output and returncode
+---------------------------------------
 
 ::
     
@@ -23,6 +23,7 @@ subprocess input and output
     p = Popen(["ls", "-l"], stdin=PIPE, stdout=PIPE, stderr=PIPE)
     std_input = "/"
     out, err = p.communicate(std_input)
+    returncode = p.returncode
 
 
 use string to call subprocess instead of list
